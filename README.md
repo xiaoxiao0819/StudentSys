@@ -1,1 +1,2 @@
-# StudentSys
+# 通过scrapy框架实现对瓜子二手车的爬取
+# 获取车辆的基本信息,处理后储存到MongoDB中
