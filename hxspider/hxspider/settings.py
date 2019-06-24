@@ -92,15 +92,7 @@ ITEM_PIPELINES = {
 
 SELENIUM_TIMEOUT = 10
 
-IPPOOL=[
-	{"ipaddr":"115.223.202.210:9000"},
-	{"ipaddr":"115.223.252.198:9000"},
-	{"ipaddr":"114.234.82.76:9000"},
-	{"ipaddr":"115.223.241.43:9000"},
-	{"ipaddr":"180.118.92.248:9000"},
-	{"ipaddr":"115.223.241.109:9000"},
-	{"ipaddr":"27.206.74.114:9000"}
-]
+
 FEED_EXPORT_ENCODING = 'utf-8'
 
 MONGO_URI = 'mongodb://47.103.16.39'
