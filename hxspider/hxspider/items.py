@@ -8,7 +8,12 @@
 import scrapy
 
 
-class HxspiderItem(scrapy.Item):
+class GuaziItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    collection = 'guazi'
+    buy_year = scrapy.Field()
+    run = scrapy.Field()
+    intro = scrapy.Field()
+    sale = scrapy.Field()
+    old_sale = scrapy.Field()
